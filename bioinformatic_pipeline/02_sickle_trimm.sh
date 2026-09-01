@@ -2,8 +2,8 @@
 #SBATCH --job-name=sickle
 #SBATCH --ntasks=1
 #SBATCH --mem=32G
-#SBATCH --partition=bru-medium
-#SBATCH --account=brusetti-lab
+#SBATCH --partition= ##add
+#SBATCH --account= #add
 #SBATCH --time=01-00:00:00
 #SBATCH --output=sickle-%j.out
 #SBATCH --error=sickle-%j.err
@@ -14,8 +14,8 @@ source ~/.bashrc
 
 
 # === LOOP PAIRED-END ===
-INPUT_DIR="/data/nanopore01/subsurfice/T2/DATA/Raw_data/cutadapt_out/"		#sequenze trimmate con cutadapater
-OUTPUT_DIR="/data/nanopore01/subsurfice/T2/DATA/Raw_data/sickle_out"
+INPUT_DIR="/your/path/cutadapt_out/"		#seq after cutadapater
+OUTPUT_DIR="your/path/sickle_out"
 mkdir -p "$OUTPUT_DIR"
 
 cd "$INPUT_DIR"
