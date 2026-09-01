@@ -4,7 +4,7 @@
 # Environmental gradient across alpine spring catchments
 # =========================================================
 
-setwd("C:/Users/SiRosa/OneDrive - Scientific Network South Tyrol/Projects/Subsurface/unite")
+setwd("C:/your/path")
 
 
 # ---------------------------------------------------------
