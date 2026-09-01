@@ -4,7 +4,7 @@
 #   name    taxonomy_id    taxonomy_lvl    sample1    sample2    sample3 ...
 # Main analyses use Bracken relative abundances (_frac_matrix.tsv), not rarefied data.
 ###############################################################################
-setwd("C:/Users/SiRosa/OneDrive - Scientific Network South Tyrol/Projects/Subsurface/bracken_combined/")
+setwd("C:/your/path")
 #### 0) Packages --------------------------------------------------------------
 required_packages <- c(
   "readr", "dplyr", "tidyr", "stringr", "tibble",
