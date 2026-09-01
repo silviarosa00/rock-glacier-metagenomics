@@ -1,6 +1,6 @@
 ### 1.- Working Directory
 
-setwd("C:/Users/SiRosa/OneDrive - Scientific Network South Tyrol/Projects/Subsurface/unite")
+setwd("C:/your/path") ##change
 dir.create("SpiecEasi", showWarnings = FALSE, recursive = TRUE)
 dir.create("SpiecEasi/plots", showWarnings = FALSE, recursive = TRUE)
 dir.create("SpiecEasi/tables", showWarnings = FALSE, recursive = TRUE)
