@@ -19,7 +19,7 @@
 # CONFIG
 # -----------------------
 
-setwd("C:/Users/SiRosa/OneDrive - Scientific Network South Tyrol/Projects/Subsurface/genomad/")
+setwd("C:/your/path")
 # cambia solo questa cartella
 
 card_file <- "plasmid_scaffolds_with_CARD_ARG.tsv"
