@@ -2,16 +2,16 @@
 #SBATCH --ntasks=8
 #SBATCH --nodes=1
 #SBATCH --mem=200G
-#SBATCH --partition=bru-medium
-#SBATCH --account=brusetti-lab
+#SBATCH --partition= #add
+#SBATCH --account=#add
 #SBATCH --time=3-00:00:00
 #SBATCH --output=megahit-%j.out
 #SBATCH --error=megahit-%j.err
 
 module load megahit/1.2.9
 
-INPUT_DIR="/data/nanopore01/subsurfice/T1/raw/Raw_data/sickle_out"
-OUTPUT_DIR="/data/nanopore01/subsurfice/T1/raw/MEGAHIT_assemblies"
+INPUT_DIR="/you/path/sickle_out"
+OUTPUT_DIR="/you/path/MEGAHIT_assemblies"
 
 mkdir -p "$OUTPUT_DIR"
 
