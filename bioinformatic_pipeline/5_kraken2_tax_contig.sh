@@ -3,16 +3,16 @@
 #SBATCH --ntasks=8
 #SBATCH --nodes=1
 #SBATCH --mem=420000M
-#SBATCH --partition=bru-medium
-#SBATCH --account=brusetti-lab
+#SBATCH --partition= #add
+#SBATCH --account= #add
 #SBATCH --time=2-00:00:00
 #SBATCH --output=kraken2-%j.out
 #SBATCH --error=kraken2-%j.err
 
 # --- CONFIGURAZIONE (modifica queste variabili) ---
-INPUT_DIR="/data/nanopore01/subsurfice/T1/raw/MEGAHIT_assemblies"	#path to assemblies obtained with megahit
-OUTPUT_DIR="/data/nanopore01/subsurfice/T1/taxonomy/Kraken_contings/" 
-DB_PATH="/data/databases/kraken2/2025-02-04/k2_pluspfp_2025040/"    # percorso del database Kraken2
+INPUT_DIR="/your/path//MEGAHIT_assemblies"	#path to assemblies obtained with megahit
+OUTPUT_DIR="/your/path/Kraken_contings/" 
+DB_PATH="/your/path/databases/kraken2/2025-02-04/k2_pluspfp_2025040/"    #path to database Kraken2
 THREADS=8
 
 
